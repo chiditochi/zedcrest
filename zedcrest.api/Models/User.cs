@@ -8,7 +8,7 @@ namespace zedcrest.api.Models
     {
         public User()
         {
-            CreatedAt = new DateTime();
+            CreatedAt = DateTime.Now;
             UserUploads = new List<Upload>();
         }
         [Key]

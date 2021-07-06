@@ -7,7 +7,7 @@ namespace zedcrest.api.Models
     {
         public Upload()
         {
-            CreatedAt = new DateTime();
+            CreatedAt = DateTime.Now;
         }
         [Key]
         public long UploadId { get; set; }
